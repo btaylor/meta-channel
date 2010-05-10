@@ -42,6 +42,7 @@
            debug="${debug}"
            locale="en_US"
            strict="true"
+           static-link-runtime-shared-libraries="true"
            default-frame-rate="${framesPerSecond}"
            >
 
@@ -59,6 +60,7 @@
 
       <compiler.library-path dir="${litl.sdk.home}" append="true">
         <include name="core/bin" />
+        <include name="controls/bin" />
       </compiler.library-path>
 
       <!-- if you have custom libraries you need to include, uncomment this
