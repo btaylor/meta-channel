@@ -1,4 +1,4 @@
-<project basedir="./" default="build-debug-swf" name="GameOfLife">
+<project basedir="./" default="build-debug-swf" name="MetaChannel">
 
   <property file="my.properties" />
   <property file="build.properties" />
@@ -10,7 +10,7 @@
   <property name="flex.libs" value="${basedir}/lib"/>
   <property name="flex.output.path" value="${output.path}/deploy"/>
   <property name="flex.output.swf" value="${flex.output.path}/main.swf"/>
-  <property name="flex.main" value="${flex.source}/GameOfLife.as"/>
+  <property name="flex.main" value="${flex.source}/MetaChannel.as"/>
 
   <taskdef resource="flexTasks.tasks" classpath="${flex.sdk.home}/ant/lib/flexTasks.jar" />
 
