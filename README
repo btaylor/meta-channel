@@ -1,26 +1,7 @@
-litl Game of Life channel
+litl meta channel
 
-initially written by David Ignacio <dignacio@litl.com>
-
-the inspiration for this channel was taken from Conway's game of life [0]
-
-features:
-* the "world" is currently displayed as 50x50, the sides wrap left<->right and top<->bottom to form a pseudo toroidal type of world.
-* the world is initially populated randomly with >33% coverage
-* runs at one generation every 100ms
-* color of the cell is determined by life, and how many neighbors are alive.  the colors are different saturations of litl blue
-* go button restarts the game
-* game automatically restarts after 600 generations
-* game pauses when off screen
-
-things to do:
-* make size of the world an option
-* make speed of generation an option
-* make initial population coverage an option
-* make max generation an option
-* improve cycle/dead state detection
-* click to "inject" alive cells?
-* add a favicon
+written by Brad Taylor <btaylor@litl.com>
+based upon gameoflife-channel by David Ignacio <dignacio@litl.com>
 
 this was developed using the following:
 * adobe flex sdk 4.0.0 (not the open source one) [1]
@@ -50,7 +31,6 @@ testing/running swf
 
 
 urls:
-[0] http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 [1] http://opensource.adobe.com/wiki/display/flexsdk/Download+Flex+4
 [2] http://developer.litl.com/
 [3] sun-java6-jre package on ubuntu jaunty and lucid
